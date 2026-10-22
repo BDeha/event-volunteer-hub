@@ -35,7 +35,7 @@ def create_default_categories(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('events', '0011_alter_category_id_alter_event_details_and_more'),
+        ('events', '0011_alter_category_id_alter_event_details_alter_event_id'),
     ]
 
     operations = [
